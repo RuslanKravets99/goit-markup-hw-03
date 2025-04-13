@@ -173,6 +173,9 @@ font-style: normal;}
     min-width: 169px;
     border: none;
     cursor: pointer;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
  }
 
 .main-button:hover,.main-button:focus{background: #404bbf;
