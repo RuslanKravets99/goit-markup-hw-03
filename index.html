@@ -7,7 +7,7 @@
     <title>Webstudio</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
         integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        crossorigin="anonymous" referrerpolicy="no-referrer">
     <link rel="stylesheet" href="./css/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -41,9 +41,8 @@
                         <a href="tel:+110001111111" target="_blank" class="cont-link">+11 (000) 111-11-11</a>
                     </li>
                 </ul>
+            </address>
         </div>
-        </address>
-
 
 
     </header>
@@ -59,29 +58,30 @@
         <!--#region Advantages-->
         <section class="advant-sect">
             <div class="container">
-                <h2 hidden>Advantages</h2>
+                <h2 class="visually-hidden">Advantages</h2>
+
                 <ul class="advant-list">
-                    <li>
+                    <li class="advant-li">
                         <h3 class="advant-tittle">Strategy</h3>
                         <p class="advant-par">
                             Our goal is to identify the business
                             problem to walk away with the perfect and creative solution.
                         </p>
                     </li>
-                    <li>
+                    <li class="advant-li">
                         <h3 class="advant-tittle">Punctuality</h3>
                         <p class="advant-par">
                             Bring the key message to the brand's audience for the best price within the shortest possible
                             time.
                         </p>
                     </li>
-                    <li>
+                    <li class="advant-li">
                         <h3 class="advant-tittle">Diligence</h3>
                         <p class="advant-par">
                             Research and confirm brands with the strongest digital growth opportunities and minimize risk.
                         </p>
                     </li>
-                    <li>
+                    <li class="advant-li">
                         <h3 class="advant-tittle">Technologies</h3>
                         <p class="advant-par">
                             Design practice focused on digital experiences. We bring forth a deep passion for
@@ -127,34 +127,58 @@
                 <h2 class="portfolio-main-title">Our Portfolio</h2>
                 <ul class="cont-port-list">
                     <li class="portfol-li-cont">
-                        <img src="./images/img-portfolio/banking-app.jpg" alt="banking app" height="300" width="360" >
-                        <h3 class="portfolio-list-title">Banking App</h3>
-                        <p class="portfolio-list-par">App</p>
+                        <div class="img-wrap">
+                         <img src="./images/img-portfolio/banking-app.jpg" alt="banking app" height="300" width="360" >
+                        </div>
+                        <div class="text-wrap">
+                         <h3 class="portfolio-list-title">Banking App</h3>
+                         <p class="portfolio-list-par">App</p>
+                    </div> 
                     </li>
                     <li class="portfol-li-cont">
-                        <img src="./images/img-portfolio/cashless-payment.jpg" alt="cashless payment" height="300" width="360" >
-                        <h3 class="portfolio-list-title">Cashless Payment</h3>
-                        <p class="portfolio-list-par">Marketing</p>
+                        <div class="img-wrap">
+                         <img src="./images/img-portfolio/cashless-payment.jpg" alt="cashless payment" height="300" width="360" >
+                        </div>
+                        <div class="text-wrap">
+                         <h3 class="portfolio-list-title">Cashless Payment</h3>
+                         <p class="portfolio-list-par">Marketing</p>
+                    </div> 
                     </li>
                     <li class="portfol-li-cont">
-                        <img src="./images/img-portfolio/meditation-app.jpg" alt="meditation app" height="300" width="360" >
-                        <h3 class="portfolio-list-title">Meditation App</h3>
-                        <p class="portfolio-list-par">App</p>
+                        <div class="img-wrap">
+                         <img src="./images/img-portfolio/meditation-app.jpg" alt="meditation app" height="300" width="360" >
+                        </div>
+                        <div class="text-wrap">
+                         <h3 class="portfolio-list-title">Meditation App</h3>
+                         <p class="portfolio-list-par">App</p>
+                    </div> 
                     </li>
                     <li class="portfol-li-cont">
-                        <img src="./images/img-portfolio/taxi-servise.jpg" alt="taxi service" height="300" width="360" >
-                        <h3 class="portfolio-list-title">Taxi Service</h3>
-                        <p class="portfolio-list-par">Marketing</p>
+                        <div class="img-wrap">
+                         <img src="./images/img-portfolio/taxi-servise.jpg" alt="taxi service" height="300" width="360" >
+                        </div>
+                        <div class="text-wrap">
+                         <h3 class="portfolio-list-title">Taxi Service</h3>
+                         <p class="portfolio-list-par">Marketing</p>
+                    </div> 
                     </li>
                     <li class="portfol-li-cont">
-                        <img src="./images/img-portfolio/screen-illustration.jpg" alt="screen illustration" height="300" width="360" >
-                        <h3 class="portfolio-list-title">Screen Illustrations</h3>
-                        <p class="portfolio-list-par">Design</p>
+                        <div class="img-wrap">
+                         <img src="./images/img-portfolio/screen-illustration.jpg" alt="screen illustration" height="300" width="360" >
+                        </div>
+                        <div class="text-wrap">
+                         <h3 class="portfolio-list-title">Screen Illustrations</h3>
+                         <p class="portfolio-list-par">Design</p>
+                    </div> 
                     </li>
                     <li class="portfol-li-cont">
-                        <img src="./images/img-portfolio/online-courses.jpg" alt="online courses" height="300" width="360" >
-                        <h3 class="portfolio-list-title">Online Courses</h3>
-                        <p class="portfolio-list-par">Marketing</p>
+                        <div class="img-wrap">
+                         <img src="./images/img-portfolio/online-courses.jpg" alt="online courses" height="300" width="360" >
+                        </div>
+                        <div class="text-wrap">
+                         <h3 class="portfolio-list-title">Online Courses</h3>
+                         <p class="portfolio-list-par">Marketing</p>
+                    </div> 
                     </li>
                 </ul>
             </div>
